@@ -817,7 +817,7 @@ def countdown():
     unreserve_ticket()
     
 # Get your secret key from your dashboard
-stripe.api_key = 'sk_test_51PlYaqKXs5h2fewWCz2ikXJXBqp0oKHKkKj70jPhMFL0olqYRjgiGh1snYr09FgrATwrEMfBFwfTiOrUTa5aClNE00adJFzMAq'# stripe secret key
+stripe.api_key = 'PLACEHOLDER'# stripe secret key
 stripe.verify_ssl_certs = False
 
 @app.route('/create-payment-intent', methods=['POST'])
