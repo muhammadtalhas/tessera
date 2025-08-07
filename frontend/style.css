@@ -1,0 +1,25 @@
+/* Using "!important" overrides the existing CSS in the component */
+.seat {
+    width: 50px !important;
+    height: 40px !important;
+}
+
+.stages {
+    width: 50%;
+    font-family: "Impact";
+    font-size:large;
+    letter-spacing: 1.5px;
+}
+
+.seat-content {
+    padding-top: 10px;
+    
+}
+
+.seat__number {
+    font-size: small !important;
+}
+
+p {
+    font-family: "Helvetica";
+}
